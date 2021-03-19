@@ -1,0 +1,73 @@
+.play-music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.play-music > img {
+  width: 200px;
+  height: 200px;
+}
+
+.play-music > h1 {
+  margin-top: 35px;
+}
+
+.play-music__time {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0px 15px;
+  margin-top: 20px;
+}
+
+.play-music__time__column {
+  opacity: 0.6;
+  font-size: 13px;
+}
+
+.play-music__bar {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.play-music__bar div {
+  background-color: black;
+  margin-top: 15px;
+  width: 90%;
+  height: 3px;
+}
+
+.play-music__bar div:first-child {
+  width: 60%;
+}
+
+.play-music__bar div:nth-child(2) {
+  height: 10px;
+  width: 5%;
+  border-radius: 50%;
+}
+
+.play-music__bar div:last-child {
+  opacity: 0.3;
+}
+
+.music-btn {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.music-btn > i:nth-child(2) {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

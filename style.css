@@ -1,0 +1,39 @@
+@import "index.css";
+@import "status-bar.css";
+@import "music.css";
+
+html {
+  background-color: whitesmoke;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  width: 275px;
+  height: 585px;
+  border-radius: 20px;
+  margin: 20px;
+  position: relative;
+}
+
+h1 {
+  font-size: larger;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+span {
+  font-size: small;
+  opacity: 0.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
